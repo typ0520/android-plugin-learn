@@ -1,0 +1,4 @@
+include ':app'
+include ':app.main'
+include ':app.chat'
+include ':app.trade'

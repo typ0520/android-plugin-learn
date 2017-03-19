@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "main",
+      "pkg": "com.dx168.epmyg.app.main"
+    },
+    {
+      "uri": "chat",
+      "pkg": "com.dx168.epmyg.app.chat"
+    },
+    {
+      "uri": "trade",
+      "pkg": "com.dx168.epmyg.app.trade"
+    }
+  ]
+}
