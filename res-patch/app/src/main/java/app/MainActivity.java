@@ -17,6 +17,8 @@
 package app;
 
 import android.app.Activity;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -28,5 +30,14 @@ public class MainActivity extends Activity {
 
         String str = getResources().getString(Integer.valueOf("2131034113"));
         Toast.makeText(this,"str: " + str,Toast.LENGTH_LONG).show();
+
+
+//        ApplicationInfo appInfo = null;
+//        try {
+//            appInfo = getPackageManager().getApplicationInfo(getPackageName(), PackageManager.GET_META_DATA);
+//        } catch (PackageManager.NameNotFoundException e) {
+//            e.printStackTrace();
+//        }
+//        String msg = appInfo.metaData.getString("_APPLICATION_CLASSNAME");
     }
 }
